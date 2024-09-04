@@ -10,4 +10,5 @@ Dependiendo del día actual, devuelve un resultado u otro para el horario de hoy
 
 NOTA: El horario puede estar ordenado o desordenado (los días) pero cada día debe separarse con ";" y el día y el horario debe separarse por ":". Es decir, debe tener un formato:
 - Día: horario; Día: horario; ...
+
 Además, los días pueden estar en mayúscula o minúscula, pero deben estar bien escritos y con los acentos. Sólo funciona para español por ahora
