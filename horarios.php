@@ -43,7 +43,7 @@ function horarios($atts){
     
     
     
-    echo "<p id='today'>EL HORARIO DE HOY ES:".strtoupper($horas[$today])."</p><p id='tomorrow'>EL HORARIO DE MAÑANA ES:".strtoupper($horas[$tomorrow])."</p>";
+    return "<p id='today'>EL HORARIO DE HOY ES:".strtoupper($horas[$today])."</p><p id='tomorrow'>EL HORARIO DE MAÑANA ES:".strtoupper($horas[$tomorrow])."</p>";
 }
 
 add_shortcode('horarios', 'horarios');
